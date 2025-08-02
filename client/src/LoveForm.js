@@ -9,7 +9,8 @@ function LoveForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/love', { name1, name2 });
+      const res = await axios.post('https://your-render-backend-url/api/love', { name1, name2 });
+
       setResult(res.data);
     } catch (error) {
       alert("Something went wrong!");
