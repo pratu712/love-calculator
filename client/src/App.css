@@ -1,0 +1,26 @@
+body {
+  background-color: #ffe6f0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #ff0066;
+}
